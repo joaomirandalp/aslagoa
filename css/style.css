@@ -137,6 +137,7 @@ h2 {
     padding: 0.25em 1em;
     font-family: var(--ff-secondary);
     margin-bottom: 1em;
+    color: var(--clr-light);
 }   
 
 .section__subtitle--work {
@@ -326,6 +327,10 @@ header {
     .service + .service {
         margin-left: 2em;
     }
+
+    .service {
+        width: 330px;
+    }
 }
 
 /* about-me */
@@ -360,7 +365,7 @@ header {
         width: calc(100% + 4em);
         padding-left: 2em;
         padding-right: calc(420px + 2em);
-    }
+   }
 
     .about-me__img {
         grid-area: img;
@@ -374,7 +379,8 @@ header {
     background-color: var(--clr-dark);
     color: var(--clr-light);
     text-align: center;
-
+    padding-bottom: 2em;
+    padding-top: 2em;
 }
 
 .portfolio {
@@ -383,7 +389,7 @@ header {
 }
 
 .portfolio__item {
-    background: var(--clr-accent);
+    background: var(--clr-dark);
 }
 
 .portfolio__img {
@@ -406,6 +412,20 @@ header {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
     }
+}
+
+/* Parcerias */
+
+.partnerships {
+    background-color: var(--clr-dark);
+    background-image: url(../img/lagoa.png);
+    background-size: cover;
+    background-blend-mode: normal;
+    color: var(--clr-light);
+    text-align: center;
+    background-position: center;
+    padding-top: 20em;
+    padding-bottom: 20em;
 }
 
 /* footer */
